@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 84fd30494ac23994ca086fe31a48d6f0
+labels:
+- comment
+- documentation
+- comments
+- tooltip
+- automatic
+- autogenerate
+- tooltips
+- generation
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
