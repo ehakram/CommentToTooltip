@@ -3,6 +3,8 @@
 // All rights reserved
 // 
 // http://www.toolbuddy.net
+//
+//
 // =====================================================================
 
 USAGE
@@ -21,4 +23,11 @@ This asset is subject to Unity's standard Unity Asset Store End User License Agr
 
 Contact & Support
 =================
-If you have any questions, feedback or requests, please write to admin@curvyeditor.com 
+If you have any questions, feedback or requests, please write to admin@toolbuddy.net 
+
+
+------
+changelog (11BelowStudio, 18/5/2022):
+* no longer accidentally addds tooltips to 0-arity interface methods
+* can enable/disable logging all info to a file (can toggle logging exceptions to the file seperately)
+* a few bits of code cleanup/refactoring/nicer outputs for the end user
