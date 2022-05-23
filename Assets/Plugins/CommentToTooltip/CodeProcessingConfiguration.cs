@@ -1,9 +1,6 @@
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
-using JetBrains.Annotations;
-using UnityEngine;
 
 namespace ToolBuddy.CommentToTooltip
 {
@@ -22,7 +19,6 @@ namespace ToolBuddy.CommentToTooltip
         /// Regex that transform documentation lines to comment lines.
         /// Is optional: If no documentation to comment transformation needed, set this to null
         /// </summary>
-        [CanBeNull]
         internal Regex CommentExtractor { get; private set; }
 
         /// <summary>
@@ -50,7 +46,7 @@ namespace ToolBuddy.CommentToTooltip
         /// <param name="compatibleFileExtensions">filetypes that this is compatible with</param>
         internal CodeProcessingConfiguration(
             Regex parser,
-            [CanBeNull] Regex commentExtractor,
+            Regex commentExtractor,
             CommentTypes commentTypes,
             params string[] compatibleFileExtensions
         )

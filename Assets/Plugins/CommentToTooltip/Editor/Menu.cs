@@ -13,7 +13,7 @@ namespace ToolBuddy.CommentToTooltip.Editor
 {
     public static class Menu
     {
-        static private readonly TooltipGenerator tooltipGenerator = new TooltipGenerator();
+        private static readonly TooltipGenerator tooltipGenerator = new TooltipGenerator();
 
         #region editor settings
         static private readonly Settings settings = new Settings();
